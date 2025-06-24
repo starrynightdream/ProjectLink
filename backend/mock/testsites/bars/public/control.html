@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Control Page</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="updateBtn">更新数据</button>
+    </div>
+    <script>
+        document.getElementById('updateBtn').addEventListener('click', async () => {
+            await fetch('/api/update', { method: 'POST' });
+        });
+    </script>
+</body>
+</html>

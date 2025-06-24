@@ -1,0 +1,22 @@
+- Name: 排放管理
+  Type: URL
+  Description:
+    MDFilePath: a.md
+  Tags:
+    - tag1
+    - tag2
+  Params:
+    URLs: 
+      - http://localhost:8888/display
+      - http://localhost:8888/control
+- Name: 小机器人
+  Type: Vedio
+  Description:
+    MDFilePath: b.md
+  Tags:
+    - tag2
+    - tag4
+  Params:
+    Paths: 
+      - never.gif
+      - last.mp4
